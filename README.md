@@ -16,4 +16,3 @@ You can install these packages using `pip`:
 pip install beautifulsoup4
 ```
 
-
