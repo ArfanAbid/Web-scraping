@@ -26,8 +26,15 @@ else:
 # for i in soup.find_all("a"):
 #     print(i.get("href"))
 
+
 # for child in soup.find(class_="container").childrens:
 #     print(child)
 
 cnt=soup.find(class_="container")
 print(cnt.has_attr("class"))
+
+
+
+# Note: 
+#1. Websites usually do not give access/permission to scrap their Data. 
+#2.These types of modules requires proxy to scrap Data, So i Initially test on different website that has no restriction. 
