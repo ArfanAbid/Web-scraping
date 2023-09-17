@@ -5,7 +5,7 @@
 
 from bs4 import BeautifulSoup
 
-with open("E:\Task Internship\Day3\hml_doc","r")as f:
+with open("hml_doc","r")as f:
     readDoc=f.read()
 soup=BeautifulSoup(readDoc,"html.parser")
 print(soup.prettify())  # This will organize it in a well manner
@@ -46,7 +46,7 @@ print(soup.get_text())
 # ulTag.append(liTag)
 
 # soup.html.body.insert(0,ulTag)
-# with open("E:\Task Internship\Day3\ New_doc.html","w")as f:
+# with open("New_doc.html","w")as f:
 #     f.write(str(soup))
 
 
