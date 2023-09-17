@@ -1,7 +1,9 @@
 # Beautifulsoup
 # BeautifulSoup is a Python library for parsing HTML and XML documents.
 # It provides a convenient way to extract data from web pages or other structured documents.
-
+# Note:
+#1. Websites usually do not give access/permission to scrap their Data. 
+#2.These types of modules requires proxy to scrap Data.
 
 from bs4 import BeautifulSoup
 
